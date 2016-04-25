@@ -1,5 +1,17 @@
-# GACD
-Getting and Cleaning Data by Johns Hopkins University
+# GACD/galaxy S wearables
+
+Getting and Cleaning Data - Course Project: Galaxy S wearable accelerometer data
+
+This repository contains 1 commented R script that:
+
+1. (if necessary) downloads the zip archive from the below URL and extracts the files
+2. reads the unaliased activity descriptions and feature names
+3. binds the subject IDs and activity names to the accelerometer data
+4. row-binds the data sets
+5. limits to only the subj_id, activity, and columns with mean() or std() in their name
+6. makes a tidy data set with each column averaged for every subj_id and activity
+
+See below for the project description.
 
 ### Project description
 
