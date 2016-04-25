@@ -27,7 +27,7 @@ bound_datasets <- function (data_dir) {
   
   # load the activity (Y) data set
   Y <- paste(target, '/y_', data_dir, '.txt', sep = "");
-  dtAlias <- merge(fread(Y, col.names = "alias"), unalias, by = "alias");
+  dtAlias <- merge(fread(Y, col.names = "alias"), unalias, by = "alias", sort=FALSE);
   
   # bind the columns together
   dtDir <- cbind(dtSubj, dtAlias, dtBase);
