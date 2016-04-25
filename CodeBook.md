@@ -3,7 +3,9 @@ Code Book
 
 ## Tidy.txt
 
-The tidy data set produced by the run_analysis.R script includes the mean of the following variables caluclated for each subject and activity combination. Similar to the study authors, we have grouped tri-axial columns together as ```-XYZ```. As in the original study, each feature (column) is normalized in the range [-1, 1].
+The tidy data set contains averaged features for each subject/activity combination: as expected, there are 180 records (30 subjects, 6 activities each).
+
+The tidy data set produced by the run_analysis.R script includes the mean of the following variables caluclated for each subject and activity combination. Similar to the study authors, we have grouped tri-axial columns together as ```-XYZ``` in this list, but they appear as 3 columns in the data file. As in the original study, each feature (column) is normalized in the range [-1, 1].
 
 * tBodyAcc-mean()-XYZ
 * tBodyAcc-std()-XYZ
